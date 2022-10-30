@@ -1,0 +1,81 @@
+body {
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.test {
+  color: blue;
+}
+nav {
+  width: 960px;
+  margin: 0 auto;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 4px 10px coral;
+}
+.navbar .container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.navbar-menu li {
+  display: inline-block;
+}
+.navbar-menu li a {
+  display: inline-block;
+  color: #000;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.07s ease-in-out;
+}
+.navbar-menu li a:hover {
+  color: coral;
+  opacity: 1;
+}
+.navbar-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.callback {
+  color: white;
+  text-decoration: none;
+  margin: 20px 35px 20px 20px;
+  height: 25px;
+  padding: 5px 10px 5px 10px;
+  background-color: coral;
+  border-radius: 100px;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0 3px 6px rgba(255, 127, 80, 0.2);
+}
+.callback:hover {
+  color: white;
+  box-shadow: 0 5px 6px rgba(255, 127, 80, 0.5);
+  transform: scale(1.04);
+}
+.navbar-brand {
+  margin-left: 35px;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.07s ease-in-out;
+}
+.navbar-brand:hover {
+  color: coral;
+}
